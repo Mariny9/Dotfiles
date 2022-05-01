@@ -17,7 +17,6 @@
 
 call plug#begin()
 
-
 " Tutorial Plugins
 Plug 'http://github.com/tpope/vim-surround' " Surrounding ysw)
 Plug 'https://github.com/preservim/nerdtree' " NerdTree
@@ -53,6 +52,10 @@ Plug 'romgrk/barbar.nvim'
 " Arduino
 Plug 'stevearc/vim-arduino'
 
+" Markdown preview (:MarkdownPreview)
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+
+
 call plug#end()
 
 
@@ -81,4 +84,5 @@ nmap <F8> :TagbarToggle<CR>
 :colorscheme jellybeans
 
 " Neat functions
+
 
