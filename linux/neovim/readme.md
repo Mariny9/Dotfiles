@@ -1,4 +1,4 @@
-### NeoVim Setup
+# NeoVim Setup
 Latest NeoVim update
 ```
 sudo add-apt-repository ppa:neovim-ppa/unstable
@@ -14,15 +14,15 @@ Directory: ~/.config/nvim/
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 ```
-# Dependencies
-[Nodejs](https://joshtronic.com/2021/05/09/how-to-install-nodejs-16-on-ubuntu-2004-lts/)v16<
+### Dependencies
 ```
 yarn python3 
 ```
+#### Version specific dependencies
+[Nodejs](https://joshtronic.com/2021/05/09/how-to-install-nodejs-16-on-ubuntu-2004-lts/)v16<
 
 ## Auto-completion
-
-# Python
+### Python
 In neovim:
 ```
 :CocInstall coc-pyright
